@@ -105,7 +105,10 @@ Chase thrills
               _dark={{ color: "gray.400" }}
               fontSize={{ md: "lg" }}
             >
+              
               Experience the thrills of Yas Island and find serenity on the shores of Saadiyat Island, all in the same 24 hours. Whatever your mood,  has it all whenever you're ready.
+              <br></br>
+
               <hr></hr>
 <br></br>
 <br></br>

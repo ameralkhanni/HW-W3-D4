@@ -21,7 +21,7 @@ const settings = {
   infinite: true,
   autoplay: true,
   speed: 500,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 2500,
   slidesToShow: 1,
   slidesToScroll: 1,
 };
@@ -77,13 +77,27 @@ export default function Home() {
   ];
 
   return (
+    
     <Box
       position={'relative'}
-      height={'900px'}
+      mx="auto"
+      height={'60rem'}
       width={'full'}
       overflow={'hidden'}
       color='white'
       >
+        <Box m='100px'
+textAlign={'center'}
+    >
+    
+    <Heading
+    color={'black'}
+    
+    >Enjoy An Unparalleled Experience With Us</Heading>
+
+
+
+    </Box>
       {/* CSS files for react-slick */}
       <link
         rel="stylesheet"
@@ -106,7 +120,7 @@ export default function Home() {
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickPrev()}>
-        <BiLeftArrowAlt size="40px" />
+        <BiLeftArrowAlt size="50px" />
       </IconButton>
       {/* Right Icon */}
       <IconButton
@@ -118,14 +132,14 @@ export default function Home() {
         transform={'translate(0%, -50%)'}
         zIndex={2}
         onClick={() => slider?.slickNext()}>
-        <BiRightArrowAlt size="40px" />
+        <BiRightArrowAlt size="50px" />
       </IconButton>
       {/* Slider */}
       <Slider {...settings} ref={(slider: any) => setSlider(slider)}>
         {cards.map((card, index) => (
           <Box
             key={index}
-            height={'6xl'}
+            height={'2xl'}
             position="relative"
             backgroundPosition="center"
             backgroundRepeat="no-repeat"

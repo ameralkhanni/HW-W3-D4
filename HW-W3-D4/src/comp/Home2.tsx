@@ -12,7 +12,7 @@ import {
       <Flex
         w={'full'}
         h={'100vh'}
-        mt='25%'
+        mt='45%'
         backgroundImage={
           'url(https://globetrender.com/wp-content/uploads/2020/04/26-Residences-Cliff-scaled-e1587895604406.jpg)'
         }

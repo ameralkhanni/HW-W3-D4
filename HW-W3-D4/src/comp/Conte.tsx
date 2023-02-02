@@ -79,8 +79,8 @@ function Conte() {
         alt='Green double couch with wooden legs'
         borderRadius='lg'
       />
-      <Stack mt='10' spacing='3'>
-        <Heading size='md'>Living room Sofa</Heading>
+      <Stack mt='10'mb='50' spacing='4'>
+        <Heading size='md'>The soul of the desert before taking </Heading>
         <Text>
         Wake up a world away from the everyday, in the soul of the desert before taking on the dunes.
         </Text>
