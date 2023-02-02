@@ -26,7 +26,7 @@ import {
         >
           <Flex justify="center">
             <Image
-              src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Experience%20Saudi&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
+              src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Experience%24Saudi&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
               alt="Experience
               Saudi"
               rounded="lg"
