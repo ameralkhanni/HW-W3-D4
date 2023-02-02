@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Box, Button, chakra, Flex, SimpleGrid,Image } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 export default function Home3(){
   return (
@@ -11,7 +12,6 @@ export default function Home3(){
       w="full"
       justifyContent="center"
       alignItems="center"
-      pos="absolute"
       
     >
         
@@ -44,9 +44,7 @@ export default function Home3(){
               lineHeight={{ md: "shorter" }}
               
             >
-                
-                Open your mind!
-
+                 Open your mind!
             </chakra.h2>
             <chakra.p
               mb={5}
@@ -70,7 +68,7 @@ export default function Home3(){
               color="gray.100"
               as="a"
             >
-Start your exploration            </Button>
+Start your exploration  <ArrowForwardIcon boxSize={6}/>          </Button>
           </Box>
         
           <Image
@@ -122,7 +120,7 @@ Chase thrills
               color="gray.100"
               as="a"
             >
-Plan  your pefect day            </Button>
+Plan  your pefect day <ArrowForwardIcon boxSize={6}></ArrowForwardIcon>    </Button>
           </Box>
          <Image
         src='https://www.visitdubai.com/-/media/images/leisure/campaigns/tactical-campaigns/africa-winter-2022/laguna.jpg'

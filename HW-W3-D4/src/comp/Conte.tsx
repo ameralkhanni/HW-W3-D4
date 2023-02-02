@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box, Flex, Image, Link, chakra, Button, ButtonGroup, Card, CardBody,Text, CardFooter, Divider, Heading, Stack, SimpleGrid } from "@chakra-ui/react";
+import { ArrowRightIcon } from '@chakra-ui/icons';
 
 function Conte() {
   return (
@@ -11,7 +12,7 @@ function Conte() {
     ml='30%'
     >
     
-    <Heading>Experience Saudi Arabia</Heading>
+    <Heading>Experience Saudi Arabia <ArrowRightIcon boxSize={5}/></Heading>
 
 
 

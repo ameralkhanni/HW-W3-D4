@@ -43,11 +43,9 @@ Relax and rejuvenate
             </Text>
             <Stack direction={'row'}>
               <Button
-                bg={'#319795'}
-                rounded={'full'}
-                color={'white'}
+                 colorScheme='blackAlpha'
                 
-                _hover={{ bg: 'blue.500' }}>
+                _hover={{ bg: '#319795' }}>
                 Show me more
               </Button>
              

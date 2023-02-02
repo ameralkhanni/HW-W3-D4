@@ -20,6 +20,8 @@ import {
     CloseIcon,
     ChevronDownIcon,
     ChevronRightIcon,
+    BellIcon,
+    SearchIcon,
   } from '@chakra-ui/icons';
   
   export default function WithSubnavigation() {
@@ -65,7 +67,9 @@ import {
               <DesktopNav />
             </Flex>
           </Flex>
-  
+          < SearchIcon  boxSize={5} mr={"25px"}/>
+
+          <BellIcon boxSize={6} mr={"20px"}/>
           <Stack
             flex={{ base: 1, md: 0 }}
             justify={'flex-end'}
@@ -75,8 +79,8 @@ import {
               as={'a'}
               fontSize={'sm'}
               fontWeight={400}
-              variant={'link'}
-              href={'#'}>
+              variant={''}
+              href={''}>
               Sign In
             </Button>
             <Button
@@ -85,7 +89,7 @@ import {
               fontWeight={600}
               color={'white'}
               bg={'black'}
-            //   href={'#'}
+              // href={'./comp/Log'}
               _hover={{
                 bg: '#319795',
               }}>
@@ -156,12 +160,12 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('pink.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('#319795', 'gray.900') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .3s ease'}
-              _groupHover={{ color: 'pink.400' }}
+              _groupHover={{ color: 'black' }}
               fontWeight={500}>
               {label}
             </Text>
@@ -175,7 +179,7 @@ import {
             justify={'flex-end'}
             align={'center'}
             flex={1}>
-            <Icon color={'pink.400'} w={5} h={5} as={ChevronRightIcon} />
+            <Icon color={'#319795'} w={5} h={5} as={ChevronRightIcon} />
           </Flex>
         </Stack>
       </Link>
@@ -340,3 +344,4 @@ import {
       href: '#',
     },
   ];
+ 

@@ -5,6 +5,7 @@ import Home from './comp/Home'
 import Home2 from './comp/Home2'
 import Home3 from './comp/Home3'
 import Nav from './comp/Nav'
+import Log from './comp/Log'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Conte/>
       <Home2/>
       <Home3/>
+
       <Footer/>
 
 

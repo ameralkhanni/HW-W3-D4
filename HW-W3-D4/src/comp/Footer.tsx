@@ -26,8 +26,9 @@ import {
         >
           <Flex justify="center">
             <Image
-              src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Company%20Logo&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
-              alt="Company Logo"
+              src="http://placehold.jp/2a2a2c/ffffff/200x100.png?text=Experience%20Saudi&css=%7B%22font-size%20%22%3A%22%2016px%22%7D"
+              alt="Experience
+              Saudi"
               rounded="lg"
               width={{ base: "150px", lg: "200px" }}
               height={{ base: "75px", lg: "100px" }}
